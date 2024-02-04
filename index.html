@@ -3,10 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/media.css">
     <title>Newsletter</title>
 </head>
 <body>
-    
+    <header>
+        <!-- Título da página -->
+        <div id="title">
+            <h1>Marketing</h1>
+            <h1>Criativo</h1>
+        </div>
+        <!-- Menu de navegação -->
+        <ul>
+            <li><a href="#">início</a></li>
+            <li><a href="#">serviços</a></li>
+            <li><a href="#">sobre</a></li>
+            <li><a href="#">contato</a></li>
+            <li><a id="btn" href="#">já tem uma conta?</a></li>
+        </ul>
+    </header>
+    <main>
+        <!-- Subtítulo  e formulário de inscrição-->
+        <aside>
+            <h2 id="cor-texto">Inscreva-se agora</h2>
+            <h2>na Newsletter</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolore omnis neque quia consequatur itaque placeat debitis rerum quas. Velit sequi modi.
+            </p>
+            <form action="#">
+                <input type="text" placeholder="Nome completo" required>
+                <input type="email" name="email" id="email" placeholder="E-mail" required>
+                <input type="submit" value="Enviar >">
+            </form>
+        </aside>
+        <article>
+            <img src="./components/img/imagem-1.png" alt="mulher em desenho meditando,">
+        </article>
+    </main>
 </body>
 </html>
